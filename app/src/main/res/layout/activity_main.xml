@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.trishabaa.pawfinder.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="-50dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_tagline"
+            android:text="@string/tagline"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+
+        <Button
+            android:id="@+id/btn_report"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/report"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_adopt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/adopt"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_vol"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/volunteer"
+            android:textColor="@android:color/white" />
+
+        <!--<Button
+            android:id="@+id/btn_changepw"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/change_password"
+            android:textColor="@android:color/white" />-->
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/logout"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</android.support.design.widget.CoordinatorLayout>

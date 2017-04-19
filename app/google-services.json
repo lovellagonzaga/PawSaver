@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "770126909784",
+    "firebase_url": "https://pawfinder-a3cc7.firebaseio.com",
+    "project_id": "pawfinder-a3cc7",
+    "storage_bucket": "pawfinder-a3cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770126909784:android:5f5eb6be625a0734",
+        "android_client_info": {
+          "package_name": "com.trishabaa.pawfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770126909784-45oc5fo7fjaiip1rhekns30v6p2idh3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV6db3OCrqLxtuMHqypvXHAo7a345XRNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
